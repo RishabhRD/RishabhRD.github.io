@@ -1,0 +1,119 @@
+/* Element sizing includes padding and border*/
+    * {
+        box-sizing: border-box;
+    }
+    /* "row class"-->*/
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    /* Columns containing "col-"*/
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+    }
+    /* Column size for small devices (phones)*/
+    [class*="col-"] {
+        width: 100%;
+    }
+    /* Column size for large devices (computers)*/
+    @media only screen and (min-width: 768px) {
+        /* For Large Devices*/
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+    }
+    /* Header Container*/
+    .topContainer{
+      width: 97%;
+      margin-left: 1.5%;
+      background-color: #050937;
+      box-shadow: 4px 4px 2.5px black;
+      border-radius: 9px;
+    }
+    /* Page Heading*/
+    .headline{
+      display: inline-block;
+      color: #FFECD8;
+      float: right;
+    }
+    /*Top Menu Bar*/
+    .topMenu {
+      overflow: hidden;
+      background-color: #820808;
+      border-radius: 9px;
+    }
+    /* Navigation links in "topMenu" container*/
+    .topMenu a {
+      float: left;
+      display: block;
+      color: #E7F0D8;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    /* Navigation links in "topMenu" container: On mouse hover*/
+    .topMenu a:hover {
+      background-color: blue;
+      color: lightyellow;
+    }
+    /* Visited navigation links in "topMenu" container: On mouse hover*/
+    .topMenu a:visited:hover {
+      background-color: blue;
+      color: lightyellow;
+    }
+    /* Nav link text color in paragraphs*/
+    p a {
+      color: red;
+    }
+    /* Page Body*/
+    body {
+      background-color: #F0D2CB;
+      color: #02052A;
+      font-family: helvetica, arial, sans-serif;
+      font-size: 16px;
+    }
+    /* Header Image*/
+    img.topImage {
+      max-width: 150px;
+      float: left;
+    }
+    /* Question labels*/
+    .redLabel {
+      color: darkred;
+      font-size: 16px;
+      font-weight:800;
+    }
+    /* Bordered Container*/
+    div.bordered {
+      font-size: 18px;
+      font-weight: bold;
+      color: #09326B;
+      background-color: white;
+      border-style: solid;
+      border-color: #09326B;
+      border-width: 4px;
+      padding: 10px;
+      margin: 50px;
+      width: 90%;
+    }
+    /*Form class*/
+    form.myForm {
+      border-style: double;
+      border-color: #050937;
+      border-width: 1px;
+      color: #050937;
+      padding-left: 15px;
+      padding-bottom: 15px;
+    }
