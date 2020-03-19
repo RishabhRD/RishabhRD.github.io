@@ -1,0 +1,146 @@
+\documentclass{article}
+
+\usepackage{titlesec}
+\usepackage{fontspec}
+\usepackage{titling}
+\usepackage[backend=biber]{biblatex}
+\usepackage[a4paper,margin=1in,scale=1]{geometry}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+\newfontfamily\DejaSans{NotoEmoji Nerd Font}
+\addbibresource{first.bib}
+
+\author{Rishabh Dwivedi}
+\title{Resume}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0.5em}
+
+\titleformat{\section}
+{\bfseries\Large\uppercase}
+{}
+{0.3em}
+{}[\hrule]
+
+\titleformat{\subsubsection}[runin]
+{\bfseries\small}
+{$\bullet$ }
+{3em}
+{}[:]
+
+\titlespacing{\subsubsection}{0pt}{0pt}{5pt}
+
+
+\begin{document}
+
+\newcommand{\prj}[3]{
+	\begin{minipage}{0.6\textwidth} \underline{\textbf{#1}} \end{minipage}
+	\begin{minipage}{0.4\textwidth}\begin{flushright} {\small(#3)} \end{flushright}\end{minipage}\linebreak
+	{\small(\url{https://github.com/#2})}\\
+}
+
+\renewcommand{\maketitle}{
+	\begin{center}
+		{\huge\bfseries\theauthor}
+
+		\vspace{0.25mm}
+		{\DejaSans 📧}\href{mailto:rishabhdwivedi17@gmail.com}{rishabhdwivedi17@gmail.com} | {\DejaSans }+91 74066 81380 | {\DejaSans }\url{github.com/RishabhRD}
+	\end{center}
+	}
+\maketitle
+
+\section{Education}
+\footnotesize{
+	\begin{minipage}{0.6\textwidth}
+		Bachelor Of Technology, Computer Science 
+	\end{minipage}
+	\begin{minipage}{0.3\textwidth}
+		\begin{flushright}
+(Expcted to graduate in May 2020)
+\end{flushright}
+	\end{minipage}
+\\Indian Institute of Information Technology, Dharwad	
+CGPA: 9.13
+
+Grade 12(CBSE)
+Anil Saraswati Vidya Mandir, Ayodhya, UP: 93.4\% in Board Exams March 2017\\
+Grade 10(CBSE)
+Anil Saraswati Vidya Mandir, Ayodhya, UP: Secured CGPA of 9.60/10.00\\
+}
+\section{Skills}
+
+\subsubsection{Languages}
+
+C, C++, Java
+
+\subsubsection{Tools}
+
+Bash, Git, sed, awk, ssh, squid, Make
+
+\subsubsection{Kernel Programming}
+
+Kernel Modules, netfilters, shared library(linux)
+
+\subsubsection{Cloud Networking}
+
+OVS, LXC, Dockers, Mininet, tun/tap interfacing
+
+\subsubsection{Debugging Tools}
+
+GDB, Valgrind, gCov, strace, ptrace
+
+\subsubsection{Networking Skills}
+
+Software Defined Networking, Network Function Virtualisation
+
+\subsubsection{SDN Controllers}
+
+Floodlight
+
+\section{Courses Taken}
+
+\begin{tabular}[h]{l l l l}
+	Engineering Mathematics & Data Structures & Computer Architecture \\
+	Theory Of Computation & Digital Design & Design and Analysis of Algorithms\\
+	Software Engineering & Operating Systems & Object Oriented Programming \\
+	Microprocessors and Microcontrollers & Differential Eqns & Discrete Mathematics\\
+\end{tabular}
+
+\section{Projects}
+
+\prj{ARP Poisoning: Detection and Prevention}
+{sdnnet/sdn\_arp\_spoof\_detection}
+{December 2019 - January 2020}
+Designed a floodlight module to detect and prevent ARP poisoning in Software Defined Network Envirnment. (Testing using: OVS, Floodlight, Mininet, lxc)
+
+\prj{MSTP Floodlight}{sdnnet/floodlight\_mstp}{January 2020 currently working}
+Implementaton of Minimum Spanning Tree protocol using SDN approach for Floodlight
+
+\prj{MANET Routing Protocol}{manet-sih/manet\_gzrp}{January 2020 currently working}
+Implementation of MANET Routing protocol similar to zone routing protocol. It is optimized using the assumption that we have knowledge of our current location using GPS. Simulated in ns-3 network simualator.
+
+\prj{ArpSpoof}{RishabhRD/kernelArpSpoofer}{December 2019 currently working}
+ArpSpoof is an application that utilizes linux raw sockets to do spoof ARP request and ARP reply in the network. Very useful for DOS attack or MITM attack in the network.
+
+\textit{Future Work: Make appropriate reply in kernel space itself.}
+
+\prj{Xshare}{RishabhRD/xshare}{July 2019 - August 2019}
+xShare is a http server  that helps us to browse the network file systems inside local network uitlizing HTTP client(like a browser)
+
+\prj{Nautilus Terminal}{RishabhRD/nautilus-terminal}{July 2019 - September 2019}
+Built an extenstion for nautilus file manager(defualt file manger for gnome desktop environment) for opening terminal in current path. It not only supports gnome terminal(as standart open in terminal does) but also other terminals utilizing shared library of linux.
+
+\prj{Sniffray}{RishabhRD/sniffray}{April 2019}
+Sniffray is a network sniffer for linux developed using linux raw sockets.
+
+\prj{QR Scanner}{RishabhRD/QRScanner}{May 2019}
+A simple QR Scanner app for PC which can run Java. It utiizes JavaFX GUI Library.
+
+
+\section{Achievements}
+4 star(Division 1) coder in codechef. Won a local coding competition in 12\textsuperscript{th} standard.
+
+\section{Interests/Hobbies}
+
+Playing Chess, listening to music, reading and mantaining my archrice repository that has my arch linux setup.
+\printbibliography
+\end{document}
