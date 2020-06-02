@@ -1,12 +1,10 @@
 \documentclass{article}
 
 \usepackage{titlesec}
-\usepackage{fontspec}
 \usepackage{titling}
 \usepackage[backend=biber]{biblatex}
 \usepackage[a4paper,margin=1in,scale=1]{geometry}
 \usepackage[colorlinks=true,urlcolor=blue]{hyperref}
-\newfontfamily\DejaSans{NotoEmoji Nerd Font}
 \addbibresource{first.bib}
 
 \author{Rishabh Dwivedi}
@@ -43,7 +41,7 @@
 		{\huge\bfseries\theauthor}
 
 		\vspace{0.25mm}
-		{\DejaSans 📧}\href{mailto:rishabhdwivedi17@gmail.com}{rishabhdwivedi17@gmail.com} | {\DejaSans }+91 74066 81380 | {\DejaSans }\url{github.com/RishabhRD}
+		\href{mailto:rishabhdwivedi17@gmail.com}{rishabhdwivedi17@gmail.com} | +91 74066 81380 | \url{github.com/RishabhRD}
 	\end{center}
 	}
 \maketitle
@@ -131,6 +129,9 @@ Built an extenstion for nautilus file manager(defualt file manger for gnome desk
 
 \prj{Sniffray}{RishabhRD/sniffray}{April 2019}
 Sniffray is a network sniffer for linux developed using linux raw sockets.
+
+\prj{gohup}{RishabhRD/gohup}{April 2020}
+Gohup is a command line application launcher. It acts very similar to nohup with a simple difference that it does not produce any output file or waits for program to close. It becomes a good tool to launch any program with all current environment variables.
 
 \prj{QR Scanner}{RishabhRD/QRScanner}{May 2019}
 A simple QR Scanner app for PC which can run Java. It utiizes JavaFX GUI Library.
