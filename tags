@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/315c3351/
+.change	style.css	/^.change{$/;"	c
+.change h2	style.css	/^.change h2{$/;"	s
+.wrapper	style.css	/^.wrapper{$/;"	c
+.wrapper h2	style.css	/^.wrapper h2{$/;"	s
+Achievements	files/resume.tex	/^\\section{Achievements}$/;"	s
+Cloud Networking	files/resume.tex	/^\\subsubsection{Cloud Networking}$/;"	b	section:Skills
+Courses Taken	files/resume.tex	/^\\section{Courses Taken}$/;"	s
+Debugging Tools	files/resume.tex	/^\\subsubsection{Debugging Tools}$/;"	b	section:Skills
+Education	files/resume.tex	/^\\section{Education}$/;"	s
+I am a	index.html	/^		<h2>I am a <br> <span class="change"><\/span><\/h2>$/;"	i
+Interests/Hobbies	files/resume.tex	/^\\section{Interests\/Hobbies}$/;"	s
+Kernel Programming	files/resume.tex	/^\\subsubsection{Kernel Programming}$/;"	b	section:Skills
+Languages	files/resume.tex	/^\\subsubsection{Languages}$/;"	b	section:Skills
+My Personal Website	README.md	/^# My Personal Website$/;"	c
+Networking Skills	files/resume.tex	/^\\subsubsection{Networking Skills}$/;"	b	section:Skills
+Projects	files/resume.tex	/^\\section{Projects}$/;"	s
+SDN Controllers	files/resume.tex	/^\\subsubsection{SDN Controllers}$/;"	b	section:Skills
+Skills	files/resume.tex	/^\\section{Skills}$/;"	s
+Tools	files/resume.tex	/^\\subsubsection{Tools}$/;"	b	section:Skills
+\\prj	files/resume.tex	/^\\newcommand{\\prj}[3]{$/;"	C
+a	acs.css	/^a{$/;"	s
+a	excs.css	/^a{$/;"	s
+a	prcs.css	/^a{$/;"	s
+a	pucs.css	/^a{$/;"	s
+a	style.css	/^a{$/;"	s
+a:active	acs.css	/^a:active {$/;"	s
+a:active	excs.css	/^a:active {$/;"	s
+a:active	prcs.css	/^a:active {$/;"	s
+a:active	pucs.css	/^a:active {$/;"	s
+a:active	style.css	/^a:active {$/;"	s
+a:hover	acs.css	/^a:hover {$/;"	s
+a:hover	excs.css	/^a:hover {$/;"	s
+a:hover	prcs.css	/^a:hover {$/;"	s
+a:hover	pucs.css	/^a:hover {$/;"	s
+a:hover	style.css	/^a:hover {$/;"	s
+body	acs.css	/^body{$/;"	s
+body	excs.css	/^body{$/;"	s
+body	prcs.css	/^body{$/;"	s
+body	pucs.css	/^body{$/;"	s
+body	style.css	/^body{$/;"	s
+span:before	style.css	/^span:before{$/;"	s
+table	acs.css	/^table{$/;"	s
+table	excs.css	/^table{$/;"	s
+table	prcs.css	/^table{$/;"	s
+table	pucs.css	/^table{$/;"	s
+table	style.css	/^table{$/;"	s
+td	acs.css	/^td{$/;"	s
+td	excs.css	/^td{$/;"	s
+td	prcs.css	/^td{$/;"	s
+td	pucs.css	/^td{$/;"	s
+td	style.css	/^td{$/;"	s
+td:hover	style.css	/^td:hover{$/;"	s

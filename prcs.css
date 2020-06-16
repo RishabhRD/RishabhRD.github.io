@@ -1,0 +1,26 @@
+body{
+	background: #EEE;
+	margin: 0;
+	padding: 0;
+}
+table{
+background:#306EFF;
+width: 100%;
+height: 50px;
+}
+td{
+height:30px;
+text-align: center;
+border: 10px #306EFF;
+font-family: "Courier", monospace;
+}
+a{
+text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: solid black;
+}
+

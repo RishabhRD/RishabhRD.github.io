@@ -1,0 +1,109 @@
+body{
+	background: #EEE;
+	margin: 0;
+	padding: 0;
+}
+table{
+background: none;
+width: 70%;
+height: 50px;
+border: 50px;
+}
+td{
+height:30px;
+text-align: center;
+font-family: "Courier", monospace;
+    width: 100px;
+}
+td:hover{
+background: green;
+}
+.wrapper{
+position: absolute;
+top: 50%;
+left: 20%;
+transform: translate(-50%, -50%);
+}
+.wrapper h2{
+    padding: 0;
+    margin: 0;
+    color: blue;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+    font-size: 50px;
+    font-weight: normal;
+    width: 100%;
+}
+.change{
+position: absolute;
+top: 110%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 100%;
+animation: text 1s infinite;
+
+}
+.change h2{
+    padding: 0;
+    margin: 0;
+    color: blue;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+    font-size: 50px;
+    display: block;
+    font-weight: normal;
+    animation: text 3s 1;
+}
+span:before{
+    content: '';
+    animation: animate infinite 12s;
+}
+@keyframes animate{
+    0%{
+        content: 'Student';
+      }
+      20%{
+        content: 'Developer';
+      }
+      40%{
+        content: 'Enthusiastic Programmer';
+      }
+      60%{
+        content: 'Analyst';
+      }
+      80%{
+        content: 'Researcher';
+      }
+      100%{
+        content: 'Designer';
+     }
+}
+@keyframes text{
+    0%{
+        margin-top: 30px;
+    }
+    10%{
+        margin-top: 70px;
+    }
+    30%{
+        margin-top: 30px;
+    }
+    50%{
+        margin-top: 30px;
+    }
+    70%{
+        margin-top: 30px;
+    }
+    90%{
+        margin-top: 30px;
+    }
+}
+a{
+text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: solid black;
+}
+
+
