@@ -125,24 +125,15 @@ a:hover {
 a:active {
   color: solid black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.image{
+position: relative;
+top:68%;
+left: 40%;
+}
+img{
+    border-radius: 50%;
+    padding: 30px;
+} 
 
 
 
