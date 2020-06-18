@@ -1,109 +1,153 @@
+*{
+    margin: 0;
+    padding:0;
+}
 body{
-	background: #EEE;
-	margin: 0;
-	padding: 0;
+background: solid black;
 }
-table{
-background: none;
-width: 70%;
-height: 50px;
-border: 50px;
+#particles-js {
+	background-color: rgb(13, 18, 20);
+	background-image: linear-gradient(-225deg, rgb(48, 46, 59) 0%, rgb(48, 85, 100) 51%, #30D2BE 100%);
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	z-index: 0
 }
-td{
-height:30px;
-text-align: center;
-font-family: "Courier", monospace;
-    width: 100px;
+.list{
+   width:100%;
+   height: 10%;
+   position: absolute;
 }
-td:hover{
-background: green;
+.list ul li{
+    display: inline-block;
+    height: 5px;
+    padding: 30px 80px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.list li:hover{
+    background: #4863A0;
 }
 .wrapper{
 position: absolute;
-top: 50%;
-left: 20%;
+top: 45%;
+left: 40%;
 transform: translate(-50%, -50%);
+line-height: 1.6;
+font-family: sans-serif;
+}
+.wrapper h3{
+    padding: 0;
+    margin: 0;
+    color: #E18B6B;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+    font-size: 40px;
+    font-weight: 500;
+    width: 100%;
 }
 .wrapper h2{
     padding: 0;
     margin: 0;
-    color: blue;
+    color: #800517;
     text-shadow: 0 2px 0 rgba(0,0,0,0.5);
-    font-size: 50px;
-    font-weight: normal;
+    font-size: 70px;
+    font-weight: 500;
     width: 100%;
 }
 .change{
 position: absolute;
-top: 110%;
-left: 50%;
+top: 70%;
+left: 110%;
 transform: translate(-50%, -50%);
 width: 100%;
-animation: text 1s infinite;
-
+display: inline-block;
 }
 .change h2{
     padding: 0;
     margin: 0;
-    color: blue;
+    color: #800517;
     text-shadow: 0 2px 0 rgba(0,0,0,0.5);
     font-size: 50px;
-    display: block;
     font-weight: normal;
-    animation: text 3s 1;
-}
+    display: inline-block;
+    width: 100%;
+    margin:40px;
+    }
 span:before{
     content: '';
+    margin:40px;
     animation: animate infinite 12s;
 }
+
 @keyframes animate{
     0%{
+        opacity: 0;
+        content:'Student';
+    }
+    25%{
+        
+        opacity: 1;
         content: 'Student';
-      }
-      20%{
+    }
+    26%{
+        
+        opacity: 0;
         content: 'Developer';
-      }
-      40%{
-        content: 'Enthusiastic Programmer';
-      }
-      60%{
-        content: 'Analyst';
-      }
-      80%{
-        content: 'Researcher';
-      }
-      100%{
-        content: 'Designer';
-     }
-}
-@keyframes text{
-    0%{
-        margin-top: 30px;
-    }
-    10%{
-        margin-top: 70px;
-    }
-    30%{
-        margin-top: 30px;
     }
     50%{
-        margin-top: 30px;
+        
+        opacity:1;
+        content:'Developer';
     }
-    70%{
-        margin-top: 30px;
+    51%{
+        opacity: 0;
+        margin-top: ' ';   
     }
-    90%{
-        margin-top: 30px;
+    60%{
+        opacity:0;
+        content: 'Researcher';
     }
+    85%{
+        opacity: 1;
+        margin-top: 60px;
+        content:'Researcher';
+        }
 }
 a{
 text-decoration: none;
+color: #E0FFFF;
 }
 a:hover {
-  color: red;
+  color: #C35617;
 }
 a:active {
   color: solid black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
