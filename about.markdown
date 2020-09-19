@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Rishabh Dwivedi
+title: ABOUT ME
 permalink: /about/
 ---
 
