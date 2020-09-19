@@ -1,18 +1,25 @@
 ---
 layout: page
-title: About
+title: Rishabh Dwivedi
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+- Computer science undergraduate student
+- Love contributing to open-source project
+- Currently working SDN, 5G and wireless networks
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## Acedamics
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+- Schooling (2017 passout): Anil Saraswati Vidya Mandir, Ayodhya
+  - 10th board marks: 9.6 CGPA
+  - 12th board marks: 93.4%
+- Undergraduate (2018-2022): Indian Institute of Information Technology, Dharwad
+  - Current CGPA: 9.2 (average)
 
+## Projects
 
-[jekyll-organization]: https://github.com/jekyll
+- ARP spoof detection and prevention in SDN based cloud network
+- Minimum Spanning Tree protocol implementation for floodlight SDN controller
+- VXLAN manager for SDN cloud (currently working)
+- xshare: a web based file sharing utility
+- Nautilus extension: Open in terminal option for any terminal
