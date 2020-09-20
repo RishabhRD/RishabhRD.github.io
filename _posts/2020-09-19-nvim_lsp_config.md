@@ -335,3 +335,10 @@ lsp.sumneko_lua.setup{
 
 -- vim.lsp.callbacks['textDocument/codeAction'] = custom_codeAction_callback
 {% endhighlight %}
+
+### References
+
+- TJ's talk: [https://youtu.be/C9X5VF9ASac](https://youtu.be/C9X5VF9ASac)
+- TJ's github: [https://github.com/tjdevries](https://github.com/tjdevries)
+- neovim source code: [https://github.com/neovim/neovim](https://github.com/neovim/neovim)
+- nvim-lspconfig source code: [https://github.com/neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
