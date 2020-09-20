@@ -9,6 +9,8 @@ In this post I am gonna discuss customizing neovim LSP according to your needs.
 If you haven't setup nvim-lsp till now, you can watch my introductory setup video
 for nvim-lsp at: [nvim-lsp setup](https://youtu.be/CCUFml9yB64)
 
+The whole post can be viewed as video at: [youtu.be/9j1Y9CVLvuc](https://youtu.be/9j1Y9CVLvuc)
+
 The post goes with 3 topics:
 - Basic keybinds for neovim LSP
 - Playing with LSP client configuration
@@ -258,8 +260,8 @@ Personally I extended these beahviour and made it something like this:
 ##### And also for other similar actions.....
 
 If you are interested to know about these extensions, please comment on
-corresponding video post on youtube:
-so that I can know about it and do a video an blog on this thing specifically.
+corresponding video post on youtube: [youtube video](https://youtu.be/9j1Y9CVLvuc)
+so that I can know about it and do a video and blog on this thing specifically.
 
 ## Putting things together
 
