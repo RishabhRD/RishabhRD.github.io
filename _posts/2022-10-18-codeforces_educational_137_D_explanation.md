@@ -40,11 +40,12 @@ prefix zero would always be zero in result string and thus would be trimmed.
 ### Result string length would be same as given string
 
 **After trimming prefix zeros**, result string length should be same as
-given string(after trimming prefix zeros).
+given string.
 
 Why?
 
 - It's not possible to create bigger string with bitwise OR
+
 - If we create a smaller string as result, given string str itself is bigger than that (i.e., ans = str | str)
 
 **STEP 2: s1 = str**
