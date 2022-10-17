@@ -46,7 +46,7 @@ Why?
 
 - It's not possible to create bigger string with bitwise OR
 
-- If we create a smaller string as result, given string str itself is bigger than that (i.e., ans = str | str)
+- If we create a smaller string as result, given string str itself is bigger than that \(i.e., ans = str \| str\)
 
 **STEP 2: s1 = str**
 
@@ -182,6 +182,7 @@ int main() { std::cout << solve() << std::endl; }
 ## Time Complexity
 
 `string_or` and `std::max` takes O(n) time.
+
 Loop \[1, first_zero_idx\] takes O(1) time **on average**.
 
 Thus time complexity is O(n) **on average**.
