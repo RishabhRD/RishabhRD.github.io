@@ -131,7 +131,7 @@ With all this observations, algorithm is simple as:
 
 - str = trim(given_string)
 - s1 = str
-- for all possible s2, find candidate = s1 ^ s2
+- for all possible prefix substring s2 that makes leftmost 0 in s1 1, candidate = s1 ^ s2
 - return max of all candidates calculated
 
 Code snippet:
