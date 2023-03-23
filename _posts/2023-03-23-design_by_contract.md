@@ -16,7 +16,7 @@ developer:
 
 - Precondition of function
 - Postcondition of function
-- Class Invariant of function
+- Class Invariant
 
 Let's talk about these 3 in detail with example.
 
