@@ -1,4 +1,9 @@
-# Design by contract (A systematic approach to software design)
+---
+layout: post
+title:  "Design by contract (A systematic approach to software design)"
+date:   2023-03-23
+categories: jekyll update
+---
 
 Design by contract is an approach of software design, where we formally define
 the contract for each function and class (in addition to ADT). By strictly
