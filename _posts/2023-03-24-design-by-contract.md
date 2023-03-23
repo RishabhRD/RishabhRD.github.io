@@ -503,3 +503,5 @@ class zipped_vector {
 
 - We should think, how many times we care on these contract while developing
   software, if not we should start doing so.
+
+  
