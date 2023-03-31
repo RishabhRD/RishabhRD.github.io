@@ -2,7 +2,8 @@
 
 ## Education
 
-- B.Tech in Computer Science, IIIT Dharwad, CGPA: 9.12 **Gold Medalist**
+- B.Tech in Computer Science, IIIT Dharwad, CGPA: 9.12
+  (Awarded with **Director's Gold Medal for Best Outgoing Student**)
 
 ## Experience
 
