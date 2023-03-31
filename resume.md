@@ -80,6 +80,10 @@
   is lua plugin for neovim text editor that provide better frontend handler for
   nvim-lsp client. It has **390+ github stars**.
 
+- **[nvim-cheat.sh](https://github.com/RishabhRD/nvim-cheat.sh)**: nvim-cheat.sh
+  is lua plugin for neovim text editor that aims at reducing browsing by providing
+  way to query programming questions from neovim itself. It has **130+ github stars.**
+
 ## Links
 
 - Github: [https://github.com/RishabhRD/](https://github.com/RishabhRD/)
