@@ -13,6 +13,7 @@
 - **Goodworker Technologies \[SDE-1\]**: Worked on various frameworks and
   microservices on backend side that directly or indirectly supported
   goodworker's product.
+
 - **Salesforce \[Intern\]**: Worked on enhancing performance of some of their
   product, by implementing low level constructs like less-blocking
   implementation of thread pool and leaverging abstractions to support code
@@ -24,6 +25,7 @@
   C++ proposal **[P2505](http://wg21.link/p2505)** in C++20. The implementation
   is also acknowledged in the proposal. The motive of std::expected is to
   introduce a functional way of error handling in C++ standard library.
+
 - **libunifex (Proposed for C++26)**: Implemented many unimplemented async
   algorithms proposed in **[P2300](https://wg21.link/p2300)** in **facebook's**
   libunifex library from scratch. Thus also got my copyright on those files in
