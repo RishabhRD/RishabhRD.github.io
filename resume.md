@@ -16,8 +16,7 @@
 
 ## Open Source & ISO C++ Standard contributions
 
-- **std::expected (Part of C++23 now)** [Github
-  Link](https://github.com/RishabhRD/expected): Implemented the ISO standard
+- **[std::expected](https://github.com/RishabhRD/expected) (Part of C++23 now)**: Implemented the ISO standard
   C++ proposal **[P2505](http://wg21.link/p2505)** in C++20. The implementation
   is also acknowledged in the proposal. The motive of std::expected is to
   introduce a functional way of error handling.
