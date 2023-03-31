@@ -1,4 +1,4 @@
-# Rishabh Dwivedi
+# <h1 align="center">Rishabh Dwivedi</h1>
 
 ## Education
 
@@ -21,10 +21,12 @@
 
 ## Open Source & ISO C++ Standard contributions
 
-- **[std::expected](https://github.com/RishabhRD/expected) (Part of C++23 now)**: Implemented the ISO standard
+- **std::expected (Part of C++23 now)**: Implemented the ISO standard
   C++ proposal **[P2505](http://wg21.link/p2505)** in C++20. The implementation
   is also acknowledged in the proposal. The motive of std::expected is to
   introduce a functional way of error handling in C++ standard library.
+
+  Link: [https://github.com/RishabhRD/expected](https://github.com/RishabhRD/expected)
 
 - **libunifex (Proposed for C++26)**: Implemented many unimplemented async
   algorithms proposed in **[P2300](https://wg21.link/p2300)** in **facebook's**
@@ -32,6 +34,7 @@
   facebook's codebase. libunifex implements P2300's executors proposal
   (targetting C++26) that proposes methodology of generic execution of tasks
   over scheduler and proposes idea of structured concurrency.
+
   PR links: **[into_variant
   algorithm](https://github.com/facebookexperimental/libunifex/pull/350)**,
   **[upon\_\*
@@ -85,6 +88,13 @@
 - **[nvim-cheat.sh](https://github.com/RishabhRD/nvim-cheat.sh)**: nvim-cheat.sh
   is lua plugin for neovim text editor that aims at reducing browsing by providing
   way to query programming questions from neovim itself. It has **130+ github stars.**
+
+## Skills
+
+- **Programming Languages**: C++, Haskell, Lua, Typescript, Java, C
+- **Scripting**: Bash, sed, awk
+- **Networking Research Skills**: SDN, NFV, OpenFlow, OVS, Floodlight(SDN Controller), NS-3, Wireshark, tcpdump, netstat
+- **Database**: DynamoDB, MySQL
 
 ## Links
 
