@@ -3,7 +3,10 @@
 ## Education
 
 - B.Tech in Computer Science, IIIT Dharwad, CGPA: 9.12
+
   (Awarded with **Director's Gold Medal for Best Outgoing Student**)
+
+- Grade 12 (CBSE), Anil Saraswati Vidya Mandir, Ayodhya. **93.4%**
 
 ## Experience
 
@@ -79,7 +82,7 @@
 
 ## Links
 
-- Leetcode (Rating 2144 max): [https://leetcode.com/RishabhRD/](https://leetcode.com/RishabhRD/)
 - Github: [https://github.com/RishabhRD/](https://github.com/RishabhRD/)
+- Leetcode (Rating 2144 max): [https://leetcode.com/RishabhRD/](https://leetcode.com/RishabhRD/)
 - Email: rishabhdwivedi17@gmail.com
 - Phone: +918090372355
