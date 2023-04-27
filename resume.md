@@ -6,24 +6,20 @@
 
   (Awarded with **<ins>Director's Gold Medal for Best Outgoing Student</ins>**)
 
-- Grade 12 (CBSE), Anil Saraswati Vidya Mandir, Ayodhya. **93.4%** in Boards March 2017
-
 ### Experience
 
-- **Goodworker Technologies \[SDE-1\] (Jun 2022 - currently)**: Worked on
-  various frameworks and microservices on backend side that directly or
-  indirectly supported goodworker's product. Built a task library from scratch
-  that was used in all microservices for scheduling asynchronous work. It also
-  utilized **Functional Reactive Design**. Also developed an Authorization
-  System microservice confronting OAuth2.0 Spec. Tech Stack used: **NodeJS, Typescript,
-  RXJS**
+- **Goodworker Technologies \[SDE-1\] (Jun 2022 - currently)**
+  - Implemented various frameworks for goodworker backend's mircorservices.
+  - Implemented a task library from scratch that handled scheduling of async tasks.
+  - Implemented an Authorization microservice from scratch with **OAuth2.0 spec.**
+  - Tech stack: **Typescript, Node.js, rxjs, OAuth2.0, OpenID Connect**
 
-- **Salesforce \[Intern\](Jan 2022 - Jun2022)**: Worked on enhancing
-  performance of some of their product, by implementing low level constructs.
-  Implemented a highly efficient, less-blocking **Thread Pool** for **p4-fusion** their open
-  source project and removed **singleton design pattern** and added **strategy
-  design pattern** for leaverging abstraction of scheduler. Tech Stack used: C++17, Javascript, Java
-
+- **Salesforce \[Intern\](Jan 2022 - Jun2022)**:
+  - Worked on performance aspects of various products of salesforce.
+  - Implemented a low-latency thread pool from scratch with task-stealing mechanism. This implementation
+was **10x faster** than the old implementation.
+  - Improved code quality by replacing **singleton design pattern** with **strategy design pattern** to introduce **executor
+abstraction** in a codebase.
 ### Open Source & ISO C++ Standard contributions
 
 - **std::expected (Part of C++23 now)**: Implemented the ISO standard
@@ -38,7 +34,7 @@
   libunifex library from scratch. Thus also got my **copyright** on those files in
   facebook's codebase. libunifex implements P2300's executors proposal
   (targetting C++26) that proposes methodology of generic execution of tasks
-  over scheduler and proposes idea of structured concurrency.
+  over scheduler and proposes the idea of structured concurrency.
 
   PR links: **[into_variant
   algorithm](https://github.com/facebookexperimental/libunifex/pull/350)**,
@@ -84,7 +80,7 @@
 
 - **[nvim-lsputils](https://github.com/RishabhRD/nvim-lsputils)**: nvim-lsputils
   is lua plugin for neovim text editor that provide better frontend handler for
-  nvim-lsp client. It has **390+ github stars**.
+  nvim-lsp client. It has **400+ github stars**.
 
 - **[nvim-cheat.sh](https://github.com/RishabhRD/nvim-cheat.sh)**: nvim-cheat.sh
   is lua plugin for neovim text editor that aims at reducing browsing by providing
@@ -92,7 +88,7 @@
 
 ### Skills
 
-- **Programming Languages**: C++, Haskell, Lua, Typescript, Java, C
+- **Programming Languages**: C++, Haskell, Lua, Typescript, Java, C [with **Design Patterns, functional programming and OOP**]
 - **Scripting**: Bash, sed, awk
 - **Networking Research Skills**: SDN, NFV, OpenFlow, OVS, Floodlight(SDN Controller), NS-3, Wireshark, tcpdump, netstat
 - **Database**: DynamoDB, MySQL
@@ -100,7 +96,6 @@
 ### Links
 
 - Github: [https://github.com/RishabhRD/](https://github.com/RishabhRD/) (**104 followers**)
-- Leetcode (**Rating 2144** max): [https://leetcode.com/RishabhRD/](https://leetcode.com/RishabhRD/)
-- LinkedIn: [https://www.linkedin.com/in/rishabh-dwivedi-0b3bb818a](https://www.linkedin.com/in/rishabh-dwivedi-0b3bb818a)
+- Leetcode (**Rating 2156** max): [https://leetcode.com/RishabhRD/](https://leetcode.com/RishabhRD/)
 - Email: rishabhdwivedi17@gmail.com
 - Phone: +918090372355
