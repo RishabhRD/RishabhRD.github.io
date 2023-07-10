@@ -8,7 +8,7 @@
 
 ### Experience
 
-- **Goodworker Technologies \[SDE-1\] (Jun 2022 - currently)**
+- **Goodworker Technologies \[SDE-1\] (Jun 2022 - May 2023)**
   - Implemented various frameworks for goodworker backend's mircorservices.
   - Implemented a task library from scratch that handled scheduling of async tasks.
   - Implemented an Authorization microservice from scratch with **OAuth2.0 spec.**
@@ -91,11 +91,11 @@ abstraction** in a codebase.
 - **Programming Languages**: C++, Haskell, Lua, Typescript, Java, C [with **Design Patterns, functional programming and OOP**]
 - **Scripting**: Bash, sed, awk
 - **Networking Research Skills**: SDN, NFV, OpenFlow, OVS, Floodlight(SDN Controller), NS-3, Wireshark, tcpdump, netstat
-- **Database**: DynamoDB, MySQL
+- **Cloud/Database/Other Tools**: AWS, DynamoDB, MySQL
 
 ### Links
 
 - Github: [https://github.com/RishabhRD/](https://github.com/RishabhRD/) (**104 followers**)
-- Leetcode (**Rating 2156** max): [https://leetcode.com/RishabhRD/](https://leetcode.com/RishabhRD/)
+- Leetcode (**Guardian, Rating: 2182**): [https://leetcode.com/RishabhRD/](https://leetcode.com/RishabhRD/)
 - Email: rishabhdwivedi17@gmail.com
 - Phone: +918090372355
