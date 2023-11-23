@@ -91,11 +91,11 @@ abstraction** in a codebase.
 - **Programming Languages**: C++, Haskell, Lua, Typescript, Java, C [with **Design Patterns, functional programming and OOP**]
 - **Scripting**: Bash, sed, awk
 - **Networking Research Skills**: SDN, NFV, OpenFlow, OVS, Floodlight(SDN Controller), NS-3, Wireshark, tcpdump, netstat
-- **Cloud/Database/Other Tools**: AWS, DynamoDB, MySQL
+- **Cloud & Databases**: AWS, DynamoDB, MySQL
 
 ### Links
 
-- Github: [https://github.com/RishabhRD/](https://github.com/RishabhRD/) (**104 followers**)
-- Leetcode (**Guardian, Rating: 2182**): [https://leetcode.com/RishabhRD/](https://leetcode.com/RishabhRD/)
+- Github: [https://github.com/RishabhRD/](https://github.com/RishabhRD/) (**105 followers**)
+- Leetcode (**Guardian, Rating: 2206**): [https://leetcode.com/RishabhRD/](https://leetcode.com/RishabhRD/)
 - Email: rishabhdwivedi17@gmail.com
 - Phone: +918090372355
