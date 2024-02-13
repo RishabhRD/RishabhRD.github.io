@@ -1,18 +1,17 @@
- <span style="font-size: 30px;">
- <b>
+ <br>
+ <span style="font-size: 40px;">
  <center>
-Rishabh Dwivedi
-</center>
-</b>
-</span>
-
  <b>
- <span style="font-size: 12px;">
-<div style="display:flex;"><div style="flex:1;padding:10px;border:none;"><a href="https://github.com/RishabhRD">Github (107 followers)</a></div><div style="flex:1;padding:10px;border:none;"><a href="https://leetcode.com/RishabhRD">Leetcode (Guardian: 2205)</a></div><div style="flex:1;padding:10px;border:none;">rishabhdwivedi17@gmail.com</div><div style="flex:1;padding:10px;border:none;">+918090372355</div></div>
-</span>
+Rishabh Dwivedi
 </b>
+</center>
+</span>
 
-</h1>
+ <span style="font-size: 14px;">
+ <center>
+<a href="https://github.com/RishabhRD"><b>Github (107 followers) </b></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://leetcode.com/RishabhRD"><b>Leetcode (Guardian: 2205 peak rating) </b></a>&nbsp;&nbsp;&nbsp;&nbsp;<b>rishabhdwivedi17@gmail.com </b>&nbsp;&nbsp;&nbsp;&nbsp;<b>+918090372355</b>
+</center>
+</span>
 
 ### Education
 
@@ -80,16 +79,21 @@ abstraction** in a codebase.
 
 ### Projects
 
-- **[libparse](https://github.com/RishabhRD/libparse):** A functional programming compile time string parser combinator libray.
-  It has **20+ github stars**.
+- **[libparse](https://github.com/RishabhRD/libparse):** A functional
+  programming compile time string parsing libray. It provides some primitive
+  parsers and powerful parser combinators to build higher level parsers. Given
+  a string in compile time, it can parse the same in compile time itself. It
+  has **20+ github stars**.
 
-- **[mraylib](https://github.com/RishabhRD/mraylib):** is a C++23 based pure
-  algorithmic, executor agnostic ray tracing library based on design by
-  contract. It has **30+ github stars**.
+- **[mraylib](https://github.com/RishabhRD/mraylib):** is a C++23 based ray
+  tracing library to produce some real looking images. Unlike other ray
+  tracers, the library is executor agnostic and pure algorithmic making it
+  generic enough for many usecase. It has **30+ github stars**.
 
 - **[rssh](https://github.com/RishabhRD/rssh-server):** rssh allows tunneling
   ssh connections between client and server using an intermediate machine
-  making them able to connect even being on different network.
+  making them able to connect even being on different network via the intermediate
+  machine.
 
 - **[nvim-lsputils](https://github.com/RishabhRD/nvim-lsputils)**: nvim-lsputils
   is lua plugin for neovim text editor that provide better frontend handler for
