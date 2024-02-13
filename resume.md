@@ -1,4 +1,18 @@
-# <h1 align="center">Rishabh Dwivedi</h1>
+ <span style="font-size: 30px;">
+ <b>
+ <center>
+Rishabh Dwivedi
+</center>
+</b>
+</span>
+
+ <b>
+ <span style="font-size: 12px;">
+<div style="display:flex;"><div style="flex:1;padding:10px;border:none;"><a href="https://github.com/RishabhRD">Github (107 followers)</a></div><div style="flex:1;padding:10px;border:none;"><a href="https://leetcode.com/RishabhRD">Leetcode (Guardian: 2205)</a></div><div style="flex:1;padding:10px;border:none;">rishabhdwivedi17@gmail.com</div><div style="flex:1;padding:10px;border:none;">+918090372355</div></div>
+</span>
+</b>
+
+</h1>
 
 ### Education
 
@@ -7,6 +21,10 @@
   (Awarded with **<ins>Director's Gold Medal for Best Outgoing Student</ins>**)
 
 ### Experience
+- **Zeta \[SDE-1\] (July 2023 - present)**
+  - Created a mircoservice from scratch to monitor high priority users.
+  - Worked upon optimizing legacy apis.
+  - Reduced API taking 12 second time to 500ms by database optimizations.
 
 - **Goodworker Technologies \[SDE-1\] (Jun 2022 - May 2023)**
   - Implemented various frameworks for goodworker backend's mircorservices.
@@ -14,7 +32,7 @@
   - Implemented an Authorization microservice from scratch with **OAuth2.0 spec.**
   - Tech stack: **Typescript, Node.js, rxjs, OAuth2.0, OpenID Connect**
 
-- **Salesforce \[Intern\](Jan 2022 - Jun2022)**:
+- **Salesforce \[Intern\] (Jan 2022 - Jun2022)**:
   - Worked on performance aspects of various products of salesforce.
   - Implemented a low-latency thread pool from scratch with task-stealing mechanism. This implementation
 was **10x faster** than the old implementation.
@@ -22,12 +40,10 @@ was **10x faster** than the old implementation.
 abstraction** in a codebase.
 ### Open Source & ISO C++ Standard contributions
 
-- **std::expected (Part of C++23 now)**: Implemented the ISO standard
+- **[std::expected](https://github.com/RishabhRD/expected) (Part of C++23 now)**: Implemented the ISO standard
   C++ proposal **[P2505](http://wg21.link/p2505)** in C++20. The implementation
   is also acknowledged in the proposal. The motive of std::expected is to
   introduce a functional way of error handling in C++ standard library.
-
-  Link: **[https://github.com/RishabhRD/expected](https://github.com/RishabhRD/expected)**
 
 - **libunifex (Proposed for C++26)**: Implemented many unimplemented async
   algorithms proposed in **[P2300](https://wg21.link/p2300)** in **facebook's**
@@ -47,9 +63,7 @@ abstraction** in a codebase.
 
 ### Publications / Journals
 
-- **Denial of ARP Spoofing in SDN and NFV enabled Cloud-Fog-Edge Platform \[<ins>Cluster Computing Journal</ins>\]**
-
-  Links: **[https://link.springer.com/article/10.1007/s10586-021-03328-x](https://link.springer.com/article/10.1007/s10586-021-03328-x), [https://github.com/sdnnet/sdn_arp_spoof_detection](https://github.com/sdnnet/sdn_arp_spoof_detection)**
+- **[Denial of ARP Spoofing in SDN and NFV enabled Cloud-Fog-Edge Platform](https://link.springer.com/article/10.1007/s10586-021-03328-x) \[<ins>Cluster Computing Journal</ins>\]**
 
   In this work we are proposing a Denial of ARP spoofing approach to prevent
   internal ARP spoofing attack in SDN and NFV enabled Cloud-Fog-Edge platform.
@@ -57,9 +71,7 @@ abstraction** in a codebase.
   session hijacking attacks. It also significantly reduces the overhead towards
   SDN Controller in terms of flow rules and Packet-In and Packet-Out traffic.
 
-- **Fairness and Applications’ transport protocol aware frame aggregation using programmable WLANs \[<ins>Wireless Networks Journal</ins>\]**
-
-  Link: **[https://link.springer.com/article/10.1007/s11276-022-03153-z](https://link.springer.com/article/10.1007/s11276-022-03153-z)**
+- **[Fairness and Applications’ transport protocol aware frame aggregation using programmable WLANs](https://link.springer.com/article/10.1007/s11276-022-03153-z) \[<ins>Wireless Networks Journal</ins>\]**
 
   In this work, we investigate major reasons for fairness issues, and propose a
   Fairness and Applications’ transport protocol aware frame aggregation (FAFA)
@@ -68,15 +80,16 @@ abstraction** in a codebase.
 
 ### Projects
 
-- **[libparse](https://github.com/RishabhRD/libparse):** A functional programming compile time string parsing library.
-  This library defines some basic parsers and exposes functional programming
-  based parser combinators for developing higher-order parsers. Given a string
-  in compile time, the parsers can parse those strings in compile time itself.
+- **[libparse](https://github.com/RishabhRD/libparse):** A functional programming compile time string parser combinator libray.
+  It has **20+ github stars**.
+
+- **[mraylib](https://github.com/RishabhRD/mraylib):** is a C++23 based pure
+  algorithmic, executor agnostic ray tracing library based on design by
+  contract. It has **30+ github stars**.
 
 - **[rssh](https://github.com/RishabhRD/rssh-server):** rssh allows tunneling
-  ssh connections between client and server using an intermediate machine. It
-  allows client client and server to communicate even if they are in private
-  networks if intermediate machine is hosted on public VPS.
+  ssh connections between client and server using an intermediate machine
+  making them able to connect even being on different network.
 
 - **[nvim-lsputils](https://github.com/RishabhRD/nvim-lsputils)**: nvim-lsputils
   is lua plugin for neovim text editor that provide better frontend handler for
@@ -88,14 +101,7 @@ abstraction** in a codebase.
 
 ### Skills
 
-- **Programming Languages**: C++, Haskell, Lua, Typescript, Java, C [with **Design Patterns, functional programming and OOP**]
+- **Programming Languages**: C++, Haskell, Lua, Typescript, Java, C [with **Design Patterns, Functional programming and OOP**]
 - **Scripting**: Bash, sed, awk
 - **Networking Research Skills**: SDN, NFV, OpenFlow, OVS, Floodlight(SDN Controller), NS-3, Wireshark, tcpdump, netstat
 - **Cloud & Databases**: AWS, DynamoDB, MySQL
-
-### Links
-
-- Github: [https://github.com/RishabhRD/](https://github.com/RishabhRD/) (**105 followers**)
-- Leetcode (**Guardian, Rating: 2206**): [https://leetcode.com/RishabhRD/](https://leetcode.com/RishabhRD/)
-- Email: rishabhdwivedi17@gmail.com
-- Phone: +918090372355
