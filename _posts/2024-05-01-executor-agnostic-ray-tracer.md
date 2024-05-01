@@ -12,6 +12,11 @@ The process is as follows:
 - We define from where and with what orientation we are looking at world
 - Ray tracer would render the image of how world would look like from that position and orientation
 
+<p align="center">
+  <img src='https://github.com/RishabhRD/mraylib/assets/26287448/f040787d-c36a-4731-8fb3-39857ec25a53' width='500'>
+  <img src='https://private-user-images.githubusercontent.com/26287448/303839234-9b0e2502-2010-45e6-ae66-9d570eb015d6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ1NTM1MDgsIm5iZiI6MTcxNDU1MzIwOCwicGF0aCI6Ii8yNjI4NzQ0OC8zMDM4MzkyMzQtOWIwZTI1MDItMjAxMC00NWU2LWFlNjYtOWQ1NzBlYjAxNWQ2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTAxVDA4NDY0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRlMThiNWY4YjM2YmE4NzJiZjE3MmYxNTcxOTAzNjY0NTBkMWYzYmUzMzE2YzZkMGMyYzEzYTU0NjE3OGU0NDEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.3hSu6K_y8fht1mdt_GeJIZQJ3X4-CJlZNRawjLqaWU8' width='500'>
+</p>
+
 How does it work?
 - In real life light rays come from all direction to camera and camera senses
 that and makes image of that. However, this process is really inefficient for
