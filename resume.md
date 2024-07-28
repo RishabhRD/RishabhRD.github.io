@@ -9,7 +9,7 @@ Rishabh Dwivedi
 
  <span style="font-size: 14px;">
  <center>
-<a href="https://github.com/RishabhRD"><b>Github (107 followers) </b></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://leetcode.com/RishabhRD"><b>Leetcode (Guardian: 2205 peak rating) </b></a>&nbsp;&nbsp;&nbsp;&nbsp;<b>rishabhdwivedi17@gmail.com </b>&nbsp;&nbsp;&nbsp;&nbsp;<b>+918090372355</b>
+<a href="https://github.com/RishabhRD"><b>Github (111 followers) </b></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://leetcode.com/RishabhRD"><b>Leetcode (Guardian: 2205 peak rating) </b></a>&nbsp;&nbsp;&nbsp;&nbsp;<b>rishabhdwivedi17@gmail.com </b>&nbsp;&nbsp;&nbsp;&nbsp;<b>+918090372355</b>
 </center>
 </span>
 
