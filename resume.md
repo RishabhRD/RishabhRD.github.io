@@ -38,7 +38,7 @@ Rishabh Dwivedi
   is also acknowledged in the proposal. The motive of std::expected is to
   introduce a functional way of error handling in C++ standard library.
 
-- **facebookexperimenta/libunifex (Proposed for C++26)**: Implemented many unimplemented async
+- **[facebookexperimental/libunifex (Proposed for C++26)](https://github.com/facebookexperimental/libunifex)**: Implemented many unimplemented async
   algorithms proposed in **[P2300](https://wg21.link/p2300)** in **facebook's**
   libunifex library from scratch. Thus also got my **copyright** on those files in
   facebook's codebase. libunifex implements P2300's executors proposal
@@ -51,10 +51,10 @@ Rishabh Dwivedi
   algorithm](https://github.com/facebookexperimental/libunifex/pull/333)**,
   **[bulk
   algorithm](https://github.com/facebookexperimental/libunifex/pull/354)**,
-  **[get_completion_scheuler
+  **[get_completion_scheduler
   algorithm](https://github.com/facebookexperimental/libunifex/pull/415)**
 
-- **Nvidia/stdexec**: Implemented libdispatch scheduler
+- **[Nvidia/stdexec](https://github.com/NVIDIA/stdexec)**: Implemented libdispatch scheduler
   from scratch for Nvidia's stdexec library.
   It follows the scheduler concept of **[P2300](https://wg21.link/p2300)**
   proposal for C++26. The scheduler schedules task on libdispatch queue and
@@ -83,16 +83,16 @@ Rishabh Dwivedi
 
 ### Projects
 
+- **[mraylib](https://github.com/RishabhRD/mraylib):** is a C++23 based ray
+  tracing library to produce some real looking images. Unlike other ray
+  tracers, the library is executor agnostic and pure algorithmic making it
+  generic enough for many usecase. It has **50+ github stars**.
+
 - **[libparse](https://github.com/RishabhRD/libparse):** A functional
   programming compile time string parsing libray. It provides some primitive
   parsers and powerful parser combinators to build higher level parsers. Given
   a string in compile time, it can parse the same in compile time itself. It
   has **20+ github stars**.
-
-- **[mraylib](https://github.com/RishabhRD/mraylib):** is a C++23 based ray
-  tracing library to produce some real looking images. Unlike other ray
-  tracers, the library is executor agnostic and pure algorithmic making it
-  generic enough for many usecase. It has **30+ github stars**.
 
 - **[rssh](https://github.com/RishabhRD/rssh-server):** rssh allows tunneling
   ssh connections between client and server using an intermediate machine
