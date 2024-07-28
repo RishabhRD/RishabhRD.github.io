@@ -31,12 +31,6 @@ Rishabh Dwivedi
   - Implemented an Authorization microservice from scratch with **OAuth2.0 spec.**
   - Tech stack: **Typescript, Node.js, rxjs, OAuth2.0, OpenID Connect**
 
-- **Salesforce \[Intern\] (Jan 2022 - Jun2022)**:
-  - Worked on performance aspects of various products of salesforce.
-  - Implemented a low-latency thread pool from scratch with task-stealing mechanism. This implementation
-was **10x faster** than the old implementation.
-  - Improved code quality by replacing **singleton design pattern** with **strategy design pattern** to introduce **executor
-abstraction** in a codebase.
 ### Open Source & ISO C++ Standard contributions
 
 - **[std::expected](https://github.com/RishabhRD/expected) (Part of C++23 now)**: Implemented the ISO standard
@@ -44,7 +38,7 @@ abstraction** in a codebase.
   is also acknowledged in the proposal. The motive of std::expected is to
   introduce a functional way of error handling in C++ standard library.
 
-- **libunifex (Proposed for C++26)**: Implemented many unimplemented async
+- **facebookexperimenta/libunifex (Proposed for C++26)**: Implemented many unimplemented async
   algorithms proposed in **[P2300](https://wg21.link/p2300)** in **facebook's**
   libunifex library from scratch. Thus also got my **copyright** on those files in
   facebook's codebase. libunifex implements P2300's executors proposal
@@ -59,6 +53,16 @@ abstraction** in a codebase.
   algorithm](https://github.com/facebookexperimental/libunifex/pull/354)**,
   **[get_completion_scheuler
   algorithm](https://github.com/facebookexperimental/libunifex/pull/415)**
+
+- **Nvidia/stdexec**: Implemented libdispatch scheduler
+  from scratch for Nvidia's stdexec library.
+  It follows the scheduler concept of **[P2300](https://wg21.link/p2300)**
+  proposal for C++26. The scheduler schedules task on libdispatch queue and
+  have customized implementation of bulk algorithm for utilizing parallelism
+  of machine. Profiling shows the scheduler has 97.9% CPU utilization in
+  compare to already exisiting static thread pool that has 79% CPU utilization.
+
+  PR links: **[libdispatch scheduler](https://github.com/NVIDIA/stdexec/pull/1258)**
 
 ### Publications / Journals
 
